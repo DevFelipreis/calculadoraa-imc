@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Calculadora de IMC</title>
+</head>
+
+<body>
+  <div class="gradient-background">
+    <div class="container">
+      <div class="outer-container">
+        <div class="degrade">
+          <div class="outer-container">
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/devlfreis/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://devfelipreis.github.io/projeto-integrador/" target="_blank"><i
+                  class="fas fa-globe"></i></a>
+              <a href="https://github.com/DevFelipreis" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/lfreis_oficial/?next=%2F" target="_blank"><i
+                  class="fab fa-instagram"></i></a>
+              <a href="mailto:lfreis.contato@gmail.com?subject=Fale%20Conosco"><i class="far fa-envelope"></i></a>
+              <a href="https://wa.me/5521998691739" target="_blank" class="whatsapp-link">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+          <h2 align="center">Calculadora de IMC</h2>
+
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Digite seu nome">
+
+
+
+          <label for="peso">Peso (kg):</label>
+          <input type="number" id="peso" placeholder="Digite seu peso">
+
+          <label for="altura">Altura (m):</label>
+          <input type="number" id="altura" placeholder="Digite sua altura">
+
+          <button onclick="calcularIMC()">Calcular IMC</button>
+
+          <div id="resultado-container">
+            <h3>Resultado:</h3>
+            <p id="resultado"></p>
+            <p id="resultadoText"></p>
+          </div>
+
+          <footer>
+            Desenvolvido por <a href="#" target="_blank">Luiz Felipe Reis</a> sob orientação do prof. <a
+              href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">Anthony Freitas</a>.
+            <br>
+            Durante o <a
+              href="https://www.firjansenai.com.br/cursorio/portal/detalhe-do-curso/cursos_02/programador-front-end/48897/disponivel"
+              target="_blank">Curso de Programador Front-End</a> do <a href="https://www.firjansenai.com.br/"
+              target="_blank">SENAI Maracanã</a>.
+          </footer>
+
+
+
+        </div>
+      </div>
+      <script src="./js/script.js"></script>
+
+</body>
+
+</html>
