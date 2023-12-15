@@ -20,8 +20,6 @@ body {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-
-  /* Adicionando uma borda simulando um dispositivo móvel */
   border: 16px solid #ecf0f1;
   box-sizing: border-box;
 }
